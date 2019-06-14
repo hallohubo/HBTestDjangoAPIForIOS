@@ -115,8 +115,6 @@
 		C818251822B33CB10087C2CD /* NJPhotoBrowserPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C818245922B33CB00087C2CD /* NJPhotoBrowserPopAnimator.m */; };
 		C818251922B33CB10087C2CD /* NJPhotoBrowserTransitionParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = C818245B22B33CB00087C2CD /* NJPhotoBrowserTransitionParameter.m */; };
 		C818251A22B33CB10087C2CD /* NJPhotoBrowserModalAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C818245C22B33CB00087C2CD /* NJPhotoBrowserModalAnimationTransition.m */; };
-		C818251B22B33CB10087C2CD /* NJPhotoCommentVC.m.orig in Resources */ = {isa = PBXBuildFile; fileRef = C818246122B33CB10087C2CD /* NJPhotoCommentVC.m.orig */; };
-		C818251C22B33CB10087C2CD /* HDPhotoParameterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C818246422B33CB10087C2CD /* HDPhotoParameterVC.m */; };
 		C818251D22B33CB10087C2CD /* WGS84TOGCJ02.m in Sources */ = {isa = PBXBuildFile; fileRef = C818246C22B33CB10087C2CD /* WGS84TOGCJ02.m */; };
 		C818251E22B33CB10087C2CD /* DesNetUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C818246F22B33CB10087C2CD /* DesNetUtil.m */; };
 		C818251F22B33CB10087C2CD /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C818247122B33CB10087C2CD /* DESUtil.m */; };
@@ -140,14 +138,13 @@
 		C818253122B33CB10087C2CD /* NJPhotoPickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C818249E22B33CB10087C2CD /* NJPhotoPickerManager.m */; };
 		C818253222B33CB10087C2CD /* NJPayTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C818249F22B33CB10087C2CD /* NJPayTool.m */; };
 		C818253322B33CB10087C2CD /* NJCommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824A122B33CB10087C2CD /* NJCommonTool.m */; };
-		C818253422B33CB10087C2CD /* NJLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824A222B33CB10087C2CD /* NJLoginTool.m */; };
 		C818253522B33CB10087C2CD /* LDCry.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824A522B33CB10087C2CD /* LDCry.m */; };
 		C818253622B33CB10087C2CD /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824A722B33CB10087C2CD /* NSData+Encryption.m */; };
-		C818253722B33CB10087C2CD /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81824A822B33CB10087C2CD /* libbase.a */; };
 		C818253822B33CB10087C2CD /* LableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824AB22B33CB10087C2CD /* LableView.m */; };
 		C818253922B33CB10087C2CD /* myButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824AD22B33CB10087C2CD /* myButton.m */; };
 		C818253A22B33CB10087C2CD /* NJCIQRCodeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824AE22B33CB10087C2CD /* NJCIQRCodeTool.m */; };
 		C818253B22B33CB10087C2CD /* FileCacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C81824AF22B33CB10087C2CD /* FileCacheTool.m */; };
+		C869E96222B3764800FD3D04 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81824A822B33CB10087C2CD /* libbase.a */; };
 		C8B6DD2B22AE139A000140B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C8B6DD2A22AE139A000140B7 /* AppDelegate.m */; };
 		C8B6DD3122AE139A000140B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B6DD2F22AE139A000140B7 /* Main.storyboard */; };
 		C8B6DD3322AE139E000140B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B6DD3222AE139E000140B7 /* Assets.xcassets */; };
@@ -383,9 +380,6 @@
 		C818245A22B33CB00087C2CD /* NJPhotoBrowserPushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJPhotoBrowserPushAnimator.h; sourceTree = "<group>"; };
 		C818245B22B33CB00087C2CD /* NJPhotoBrowserTransitionParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJPhotoBrowserTransitionParameter.m; sourceTree = "<group>"; };
 		C818245C22B33CB00087C2CD /* NJPhotoBrowserModalAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJPhotoBrowserModalAnimationTransition.m; sourceTree = "<group>"; };
-		C818246122B33CB10087C2CD /* NJPhotoCommentVC.m.orig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NJPhotoCommentVC.m.orig; sourceTree = "<group>"; };
-		C818246422B33CB10087C2CD /* HDPhotoParameterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HDPhotoParameterVC.m; sourceTree = "<group>"; };
-		C818246522B33CB10087C2CD /* HDPhotoParameterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDPhotoParameterVC.h; sourceTree = "<group>"; };
 		C818246722B33CB10087C2CD /* NJImageTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJImageTool.h; sourceTree = "<group>"; };
 		C818246822B33CB10087C2CD /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
 		C818246922B33CB10087C2CD /* NJTimerTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJTimerTool.h; sourceTree = "<group>"; };
@@ -402,7 +396,6 @@
 		C818247622B33CB10087C2CD /* SPAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPAlertController.m; sourceTree = "<group>"; };
 		C818247722B33CB10087C2CD /* LBXScanPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXScanPermissions.m; sourceTree = "<group>"; };
 		C818247822B33CB10087C2CD /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
-		C818247922B33CB10087C2CD /* NJLoginTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJLoginTool.h; sourceTree = "<group>"; };
 		C818247B22B33CB10087C2CD /* LBXAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBXAlertAction.m; sourceTree = "<group>"; };
 		C818247C22B33CB10087C2CD /* LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBXAlertAction.h; sourceTree = "<group>"; };
 		C818247E22B33CB10087C2CD /* UIActionSheet+LBXAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+LBXAlertAction.h"; sourceTree = "<group>"; };
@@ -438,11 +431,10 @@
 		C818249F22B33CB10087C2CD /* NJPayTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJPayTool.m; sourceTree = "<group>"; };
 		C81824A022B33CB10087C2CD /* myLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLabel.h; sourceTree = "<group>"; };
 		C81824A122B33CB10087C2CD /* NJCommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJCommonTool.m; sourceTree = "<group>"; };
-		C81824A222B33CB10087C2CD /* NJLoginTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJLoginTool.m; sourceTree = "<group>"; };
 		C81824A422B33CB10087C2CD /* BaseFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseFunc.h; sourceTree = "<group>"; };
 		C81824A522B33CB10087C2CD /* LDCry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCry.m; sourceTree = "<group>"; };
 		C81824A722B33CB10087C2CD /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
-		C81824A822B33CB10087C2CD /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbase.a; sourceTree = "<group>"; };
+		C81824A822B33CB10087C2CD /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = HBTestDjangoAPI/Utilitys/LDEncrypt/libbase.a; sourceTree = SOURCE_ROOT; };
 		C81824A922B33CB10087C2CD /* LDCry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCry.h; sourceTree = "<group>"; };
 		C81824AA22B33CB10087C2CD /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
 		C81824AB22B33CB10087C2CD /* LableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LableView.m; sourceTree = "<group>"; };
@@ -478,7 +470,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C818253722B33CB10087C2CD /* libbase.a in Frameworks */,
+				C869E96222B3764800FD3D04 /* libbase.a in Frameworks */,
 				2043766C22B5B8EFF487FCAB /* libPods-HBTestDjangoAPI.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -989,56 +981,6 @@
 			path = PhotoBrowserModalTransition;
 			sourceTree = "<group>";
 		};
-		C818245D22B33CB10087C2CD /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				C818245E22B33CB10087C2CD /* DiscoveryNewest */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		C818245E22B33CB10087C2CD /* DiscoveryNewest */ = {
-			isa = PBXGroup;
-			children = (
-				C818245F22B33CB10087C2CD /* PhotoComment */,
-				C818246222B33CB10087C2CD /* PhotoParameter */,
-			);
-			path = DiscoveryNewest;
-			sourceTree = "<group>";
-		};
-		C818245F22B33CB10087C2CD /* PhotoComment */ = {
-			isa = PBXGroup;
-			children = (
-				C818246022B33CB10087C2CD /* Controllers */,
-			);
-			path = PhotoComment;
-			sourceTree = "<group>";
-		};
-		C818246022B33CB10087C2CD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				C818246122B33CB10087C2CD /* NJPhotoCommentVC.m.orig */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		C818246222B33CB10087C2CD /* PhotoParameter */ = {
-			isa = PBXGroup;
-			children = (
-				C818246322B33CB10087C2CD /* Controllers */,
-			);
-			path = PhotoParameter;
-			sourceTree = "<group>";
-		};
-		C818246322B33CB10087C2CD /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				C818246422B33CB10087C2CD /* HDPhotoParameterVC.m */,
-				C818246522B33CB10087C2CD /* HDPhotoParameterVC.h */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		C818246622B33CB10087C2CD /* Utilitys */ = {
 			isa = PBXGroup;
 			children = (
@@ -1051,7 +993,6 @@
 				C818247622B33CB10087C2CD /* SPAlertController.m */,
 				C818247722B33CB10087C2CD /* LBXScanPermissions.m */,
 				C818247822B33CB10087C2CD /* Singleton.h */,
-				C818247922B33CB10087C2CD /* NJLoginTool.h */,
 				C818247A22B33CB10087C2CD /* LBXAlertAction */,
 				C818248622B33CB10087C2CD /* NJCommonTool.h */,
 				C818248722B33CB10087C2CD /* myLabel.m */,
@@ -1077,7 +1018,6 @@
 				C818249F22B33CB10087C2CD /* NJPayTool.m */,
 				C81824A022B33CB10087C2CD /* myLabel.h */,
 				C81824A122B33CB10087C2CD /* NJCommonTool.m */,
-				C81824A222B33CB10087C2CD /* NJLoginTool.m */,
 				C81824A322B33CB10087C2CD /* LDEncrypt */,
 				C81824AB22B33CB10087C2CD /* LableView.m */,
 				C81824AC22B33CB10087C2CD /* ValuePickerView.h */,
@@ -1182,6 +1122,13 @@
 			path = base64;
 			sourceTree = "<group>";
 		};
+		C869E96422B38C8900FD3D04 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		C8B6DD1D22AE139A000140B7 = {
 			isa = PBXGroup;
 			children = (
@@ -1207,9 +1154,9 @@
 		C8B6DD2822AE139A000140B7 /* HBTestDjangoAPI */ = {
 			isa = PBXGroup;
 			children = (
+				C869E96422B38C8900FD3D04 /* New Group */,
 				C818236E22B33CB00087C2CD /* Categorys */,
 				C81823A422B33CB00087C2CD /* Helper */,
-				C818245D22B33CB10087C2CD /* Home */,
 				C81823C322B33CB00087C2CD /* subClass */,
 				C818243122B33CB00087C2CD /* ThirdLibrary */,
 				C818246622B33CB10087C2CD /* Utilitys */,
@@ -1363,7 +1310,6 @@
 				C8B6DD5F22AE13C2000140B7 /* HBMainVC.xib in Resources */,
 				C8B6DD3322AE139E000140B7 /* Assets.xcassets in Resources */,
 				C818250222B33CB10087C2CD /* NJMenuItemView.xib in Resources */,
-				C818251B22B33CB10087C2CD /* NJPhotoCommentVC.m.orig in Resources */,
 				C81824DB22B33CB10087C2CD /* NJRoadInputView.xib in Resources */,
 				C81824D922B33CB10087C2CD /* NJRewardListView.xib in Resources */,
 				C8B6DD3122AE139A000140B7 /* Main.storyboard in Resources */,
@@ -1435,9 +1381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C818251422B33CB10087C2CD /* NJCommentPopAnimator.m in Sources */,
-				C818251C22B33CB10087C2CD /* HDPhotoParameterVC.m in Sources */,
 				C81824BA22B33CB10087C2CD /* UIView+NJFrame.m in Sources */,
-				C818253422B33CB10087C2CD /* NJLoginTool.m in Sources */,
 				C8B6DD5E22AE13C2000140B7 /* HBMainVC.m in Sources */,
 				C81824CE22B33CB10087C2CD /* HDQRCodeCt.m in Sources */,
 				C818250922B33CB10087C2CD /* NJPhotoBrowserCell.m in Sources */,
@@ -1654,6 +1598,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1673,10 +1618,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1716,6 +1662,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -1729,9 +1676,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -1741,13 +1689,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 227FF1B0EB9D86D6E3410260 /* Pods-HBTestDjangoAPI.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FC8T2G7NZ;
+				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HBTestDjangoAPI/HBTestDjangoAPI.pch";
 				INFOPLIST_FILE = HBTestDjangoAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1766,13 +1716,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E00105883E845965A2CBB1ED /* Pods-HBTestDjangoAPI.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5FC8T2G7NZ;
+				ENABLE_BITCODE = NO;
 				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HBTestDjangoAPI/HBTestDjangoAPI.pch";
 				INFOPLIST_FILE = HBTestDjangoAPI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

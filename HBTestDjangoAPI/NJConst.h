@@ -11,7 +11,6 @@
 #import "UIView+NJFrame.h"
 #import "UIView+NJCommon.h"
 #import "NJGlobalConst.h"
-#import "NJLoginTool.h"
 #import "NSString+NJNormal.h"
 #import "LBXAlertAction.h"
 #import "UIView+NJCommon.h"

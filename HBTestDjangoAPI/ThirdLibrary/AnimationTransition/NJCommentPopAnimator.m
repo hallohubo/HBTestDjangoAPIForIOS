@@ -43,7 +43,7 @@
     //FromVC
     UIViewController * fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     UIView * fromView = fromVC.view;
-    UIColor * oldFromViewBgColor = fromView.backgroundColor;
+//    UIColor * oldFromViewBgColor = fromView.backgroundColor;
     fromView.backgroundColor = [UIColor clearColor];
     fromView.frame = CGRectMake(0, 0, ScreenWidth, ScreenHeight);
     [containerView addSubview:fromView];

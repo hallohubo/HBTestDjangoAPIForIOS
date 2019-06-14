@@ -162,7 +162,7 @@ static NSString * const ID = @"NJPhotoBrowserCell";
 {
     HDWeakSelf;
     NJPhotoBrowserCell * cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
-    NJPhotoBrowserItem * item = self.photoDataArr[indexPath.row];
+    NJPhotoBrowserItem * item = weakSelf.photoDataArr[indexPath.row];
     cell.item = item;
 //    cell.didEndDownDraggingBlock = ^{
 ////        [weakSelf didEndDownDragging];

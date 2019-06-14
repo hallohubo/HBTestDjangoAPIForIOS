@@ -14,7 +14,7 @@
 
 #define IP [HDHttpHelper ip]
 
-static dispatch_once_t *onceToken_debug;
+//static dispatch_once_t *onceToken_debug;
 
 @interface HDHttpHelper (){
     HDHUD *hud;
@@ -82,7 +82,7 @@ static dispatch_once_t *onceToken_debug;
     key = HDFORMAT(@"%@-%d", key, arc4random() % 100000);
     NSDictionary *p = @{@"key": HDSTR(key)};
    
-    [self.requestSerializer setValue:HDSTR(PLATFORM) forHTTPHeaderField:@"Platform"];
+    [self.requestSerializer setValue:PLATFORM forHTTPHeaderField:@"Platform"];
     [self.requestSerializer setValue:HDSTR([HDHelper uuid]) forHTTPHeaderField:@"IMEI"];
     [self.requestSerializer setValue:HDSTR(APPVERSION) forHTTPHeaderField:@"Version"];
     
@@ -147,12 +147,12 @@ static dispatch_once_t *onceToken_debug;
         Dlog(@"encry = %@", encry);
         [self.requestSerializer setValue:HDSTR(key) forHTTPHeaderField:@"Key"];
         [self.requestSerializer setValue:HDSTR(encry) forHTTPHeaderField:@"Sign"];
-        [self.requestSerializer setValue:HDSTR(PLATFORM) forHTTPHeaderField:@"Platform"];
+        [self.requestSerializer setValue:PLATFORM forHTTPHeaderField:@"Platform"];
         [self.requestSerializer setValue:HDSTR([HDHelper uuid]) forHTTPHeaderField:@"IMEI"];
         [self.requestSerializer setValue:HDSTR(APPVERSION) forHTTPHeaderField:@"Version"];
-        NSURLSessionDataTask *task = [self POST:path parameters:_parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        NSURLSessionDataTask *task = [self POST:path parameters:self.parameters progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
             Dlog(@"path:%@ --- http response's url = %@", path, task.response.URL);
-            NSError *nserror = nil;
+//            NSError *nserror = nil;
             NSDictionary *dic_json = responseObject;
             Dlog(@"path:%@ --- json = %@", path, dic_json);
             if (!dic_json) {
@@ -266,10 +266,10 @@ static dispatch_once_t *onceToken_debug;
         Dlog(@"encry = %@", encry);
         [self.requestSerializer setValue:HDSTR(key) forHTTPHeaderField:@"Key"];
         [self.requestSerializer setValue:HDSTR(encry) forHTTPHeaderField:@"Sign"];
-        [self.requestSerializer setValue:HDSTR(PLATFORM) forHTTPHeaderField:@"Platform"];
+        [self.requestSerializer setValue:PLATFORM forHTTPHeaderField:@"Platform"];
         [self.requestSerializer setValue:HDSTR([HDHelper uuid]) forHTTPHeaderField:@"IMEI"];
         [self.requestSerializer setValue:HDSTR(APPVERSION) forHTTPHeaderField:@"Version"];
-        NSURLSessionDataTask *t = [self POST:path parameters:_parameters constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
+        NSURLSessionDataTask *t = [self POST:path parameters:self.parameters constructingBodyWithBlock:^(id<AFMultipartFormData>  _Nonnull formData) {
             for (int i = 0; i < datas.count; i++) {
                 UIImage *image = datas[i];
                 NSData *data = UIImageJPEGRepresentation(image, 1.0);

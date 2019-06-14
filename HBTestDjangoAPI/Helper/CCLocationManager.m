@@ -7,7 +7,7 @@
 //
 
 #import "CCLocationManager.h"
-@interface CCLocationManager (){
+@interface CCLocationManager ()<CLLocationManagerDelegate>{
     CLLocationManager *_manager;
     
 }
@@ -73,8 +73,14 @@
     [self startLocation];
 }
 #pragma mark CLLocationManagerDelegate
-- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
-{
+
+-(void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations {
+    CLLocation *newLocation = locations.lastObject;
+    
+    CLLocation *oldLocation;
+    if (locations.count > 1) {
+        oldLocation = locations[locations.count - 2];
+    }
     NSUserDefaults *standard = [NSUserDefaults standardUserDefaults];
     CLGeocoder *geocoder= [[CLGeocoder alloc] init];
     [geocoder reverseGeocodeLocation:newLocation completionHandler:^(NSArray *placemarks, NSError *error){
@@ -115,8 +121,13 @@
     NSLog(@"%f--%f", newLocation.coordinate.latitude, newLocation.coordinate.longitude);
     [standard setObject:@(newLocation.coordinate.latitude) forKey:CCLastLatitude];
     [standard setObject:@(newLocation.coordinate.longitude) forKey:CCLastLongitude];
-    [manager stopUpdatingLocation];
-}
+    [manager stopUpdatingLocation];}
+
+
+//- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+//{
+//
+//}
 
 -(void)startLocation{
     if([CLLocationManager locationServicesEnabled] && [CLLocationManager authorizationStatus] != kCLAuthorizationStatusDenied){

@@ -48,7 +48,7 @@ double transformLon(double x, double y)
 Location LocationMake(double lat, double lng)
 {
     Location loc;
-    loc.lat = lat, loc.lng = lng;
+    (void)(loc.lat = lat), loc.lng = lng;
     
     return loc;
 }

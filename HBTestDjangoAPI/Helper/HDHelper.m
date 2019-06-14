@@ -63,7 +63,7 @@ static HDHelper *utility = nil;
     sUUID               = device.identifierForVendor.UUIDString;
     Dlog(@"uuid = %@", sUUID);
     if (sUUID && sUUID.length > 0) {
-        NSError *error = nil;
+//        NSError *error = nil;
         [[NSUserDefaults standardUserDefaults] setObject:sUUID forKey:UUID_KEY];//本地也存一份
         [[NSUserDefaults standardUserDefaults] synchronize];
         return sUUID;

@@ -7,7 +7,7 @@
 //
 
 #import "HDViewController.h"
-#import "NJLoginVC.h"
+//#import "NJLoginVC.h"
 #import "NJNavigationController.h"
 //#import <ShareSDK/ShareSDK.h>
 #import <ShareSDKUI/ShareSDKUI.h>
@@ -56,10 +56,10 @@
 */
 - (void)showLoginVCWithCompletion:(void (^ __nullable)(void))completion
 {
-    NJLoginVC * loginVC = [[NJLoginVC alloc] init];
-    NJNavigationController * naviController = [[NJNavigationController alloc] initWithRootViewController:loginVC];
+//    NJLoginVC * loginVC = [[NJLoginVC alloc] init];
+//    NJNavigationController * naviController = [[NJNavigationController alloc] initWithRootViewController:loginVC];
     
-    [self presentViewController:naviController animated:YES completion:completion];
+//    [self presentViewController:naviController animated:YES completion:completion];
 }
 
 

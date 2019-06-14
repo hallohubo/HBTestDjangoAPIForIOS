@@ -79,6 +79,8 @@
 }
 
 #pragma mark - 其他
-
+- (void)handleDoubleTapAction:(UITapGestureRecognizer *)tag {
+    
+}
 
 @end

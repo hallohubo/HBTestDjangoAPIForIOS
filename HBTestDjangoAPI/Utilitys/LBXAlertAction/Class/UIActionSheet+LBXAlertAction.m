@@ -11,6 +11,9 @@
 
 static char key;
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
+
 @implementation UIActionSheet (LBXAlertAction)
 
 
@@ -35,6 +38,9 @@ static char key;
 
 
 // Called when a button is clicked. The view will be automatically dismissed after this call returns
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wdeprecated-implementations"
+
 - (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
 {
     if (self.block) {

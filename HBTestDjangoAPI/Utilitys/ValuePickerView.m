@@ -76,7 +76,7 @@
     [self.finishBtn setTitleColor:NJBlueColor forState:UIControlStateNormal];
     [self.finishBtn addTarget:self action:@selector(finishBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
     [self.finishBtn setTitle:@"确定" forState:UIControlStateNormal];
-    [self.finishBtn setBackgroundColor:NJGrayColor(@(238)) forState:UIControlStateNormal];
+    [self.finishBtn setBackgroundColor:NJGrayColor(238) forState:UIControlStateNormal];
     self.finishBtn.layer.cornerRadius = 12;
     self.finishBtn.clipsToBounds = true;
     [self.controllerToolBar addSubview:self.finishBtn];
@@ -192,7 +192,7 @@
     NSString * str = self.dataSource[row];
     NSDictionary * attrDic = @{
                                NSFontAttributeName : [UIFont systemFontOfSize:17.0],
-                               NSForegroundColorAttributeName : NJGrayColor(@(80)),
+                               NSForegroundColorAttributeName : NJGrayColor(80),
                                };
     return [[NSAttributedString alloc] initWithString:str attributes:attrDic];
 }
