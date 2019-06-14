@@ -26,7 +26,7 @@
 
 - (IBAction)btnClick:(UIButton *)sender
 {
-    
+    NSLog(@"touch a button!");
 }
 /*
 #pragma mark - Navigation

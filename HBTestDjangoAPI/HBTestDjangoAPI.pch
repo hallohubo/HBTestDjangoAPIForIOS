@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  HBTestDjangoAPI
+//
+//  Created by 胡勃 on 6/14/19.
+//  Copyright © 2019 胡勃. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#define MAS_SHORTHAND
+
+#import "HDInstance.h"
+#import "HDHelper.h"
+#import "HDDateHelper.h"
+#import "HDStringHelper.h"
+#import "UIButton+WebCache.h"
+#import "NJConst.h"
+//#import "NetAPIManager.h"
+
+//hb import
+#import "UIView+LoadFromNib.h"
+#import <UIImage+AFNetworking.h>
+#import <SDWebImage/UIView+WebCache.h>
+#import "HDHttpHelper.h"
+#import "HDGlobal.h"
+
+#endif
+
+
